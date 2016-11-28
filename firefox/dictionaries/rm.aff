@@ -1,3 +1,4 @@
+SET UTF-8
 FLAG num
 SFX 4412 Y 1
 SFX 4412 0 linguistic .

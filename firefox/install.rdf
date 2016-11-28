@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!--
+The MIT License (MIT)
+
+Copyright (c) 2016 Lia Rumantscha (www.liarumantscha.ch)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in 
+the Software without restriction, including without limitation the rights to 
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies 
+of the Software, and to permit persons to whom the Software is furnished to do 
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all 
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
+
+-->
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>rm@dictionaries.addons.mozilla.org</em:id>
+    <em:version>1.0</em:version>
+    <em:type>64</em:type>
+    <em:unpack>true</em:unpack>
+    <em:name>Romansh dictionary (Rumantsch Grischun)</em:name>
+	<em:description>Las datas per il program da correctura ortografica cuntegnidas en quest supplement sa basan sin las datas dal Pledari Grond che vegn redigì da la Lia Rumantscha (www.liarumantscha.ch). Radiotelevisiun Svizra Rumantscha (www.rtr.ch) ha elavurà las datas uschia ch'ellas correspundan a las pretensiuns dal program da correctura hunspell.</em:description>
+	<em:homepageURL>http://www.pledarigrond.ch</em:homepageURL>
+    <!--
+      Other install.rdf metadata such as em:localized, em:description, em:creator,
+      em:developer, em:translator, em:contributor or em:homepageURL
+    -->
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>18.0a1</em:minVersion>
+        <em:maxVersion>52.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Thunderbird -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>18.0a1</em:minVersion>
+        <em:maxVersion>52.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- SeaMonkey -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.15a1</em:minVersion>
+        <em:maxVersion>2.49</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
