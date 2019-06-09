@@ -1,0 +1,29 @@
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <identifier value="org.libreoffice.rm.hunspell.dictionaries"/>
+
+  <version value="1.00"/>
+
+  <display-name>
+    <name lang="en-US">Romansh spell checker</name>
+    <name lang="rm">Correctura ortografica rumantscha</name>
+  </display-name>
+
+  <publisher>
+	   <name lang="rm" xlink:href="https://github.com/software-rumantscha/spellchecker_rumantsch-grischun">Software Rumantscha</name>
+  </publisher>
+
+  <platform value="all"/>
+
+  <dependencies>
+    <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0"/>
+  </dependencies>
+
+  <update-information>
+    <src xlink:href="https://github.com/software-rumantscha/spellchecker_rumantsch-grischun" lang="rm"/>
+  </update-information>
+
+  <icon>
+        <default xlink:href="logo.png" />
+  </icon>
+</description>
